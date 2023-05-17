@@ -36,6 +36,10 @@ ul {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+}
+
 .article-header {
   font-weight: 600;
   font-size: 24px;
@@ -45,12 +49,55 @@ ul {
 .blog-card-time {
   color: #6941C6;
   font-size: 14px;
+  margin-bottom: 12px;
 }
 
 .blog-card-title {
   font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.blog-card-small-title {
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .blog-card-info {
   color: #C0C5D0;
+  margin-bottom: 24px;
+}
+
+/*Header*/
+
+.header {
+  margin: 30px 0;
+}
+
+.header-container {
+  align-items: center;
+  padding: 10px 0 15px;
+}
+
+.header-fio {
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header-list {
+  margin-right: 14px;
+}
+
+.header-list-item {
+  margin-right: 14px;
+  padding: 8px;
+}
+
+.header-list-item:last-child {
+  margin-right: 0;
+}
+
+.header-link {
+  font-weight: 700;
+  font-size: 20px;
 }
