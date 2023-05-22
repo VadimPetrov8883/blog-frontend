@@ -269,3 +269,54 @@ ul {
   max-height: 100%;
   margin-right: 0;
 }
+
+/* About */
+
+.about-header {
+  font-weight: 700;
+  font-size: 224px;
+  line-height: 271px;
+  text-align: center;
+  margin: 0 0 60px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.about-img {
+  margin-bottom: 50px;
+}
+
+.about-text {
+  margin-bottom: 50px;
+}
+
+.about-text:last-child {
+  margin: 0;
+}
+
+.about-title {
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 32px;
+}
+
+.about-info {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #C0C5D0;
+  margin: 0;
+}
+
+.about-list {
+  list-style: inside;
+}
+
+.about-list-item {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #C0C5D0;
+  padding-left: 10px;
+}
